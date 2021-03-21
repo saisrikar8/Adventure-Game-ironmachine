@@ -26,11 +26,11 @@ If you have questions feel free to ask each other and work as a class
 
 ### Github Link 
 
-
+[Click here to access the Repo](https://github.com/saisrikar8/Adventure-Game-ironmachine)
 
 # Can You Make it to Canada?
 
-### Story
+### Introduction
 You have hotwired a police car and stolen it. Little did you know, the police were keeping track of your location. It seems that the police are chasing you now! Your mission is to outrun the cops and make it across the Canadian border without being caught. You are in San Francisco, CA. The cop car that you stole has a radio that cops use, so you can hear their conversations.
 
 ### Instructions:
