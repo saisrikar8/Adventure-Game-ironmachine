@@ -67,7 +67,7 @@ You have 15 gallons of fuel in your tank.
 You have 3 refills left
 ```
 
-The example above shows your status at the beginning of the game. Throughout the game, your status will keep changing. Have fun!
+The example above shows your status at the beginning of the game, after you have chosen your route. Throughout the game, your status will keep changing. Have fun!
 
 
 ### You are in pursuit!
