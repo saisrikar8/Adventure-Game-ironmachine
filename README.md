@@ -67,6 +67,8 @@ You have 15 gallons of fuel in your tank.
 You have 3 refills left
 ```
 
+The example above shows your status at the beginning of the game. Throughout the game, your status will keep changing. Have fun!
+
 
 ### You are in pursuit!
-The cops are on your tail! You speed through the roads of San Francisco. You hear the cops talking. "Dispatch. I have a visual of the suspect. Calling for backup. I repeat! Calling for backup." Escape the cop before the dispatcher sends backup!
+The cops are on your tail! You speed through the roads of San Francisco. You hear the cops talking. "Dispatch. I have a visual of the suspect. Calling for backup! Over." Escape the cop before the dispatcher sends backup!

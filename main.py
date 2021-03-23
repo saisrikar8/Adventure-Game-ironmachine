@@ -12,7 +12,7 @@ while(game == "yes" or game == "y"):
   won = False
   disguise = False
   print("You have hotwired a police car and stolen it. Little did you know, the police were keeping track of your location. It seems that the police are chasing you now! Your mission is to outrun the cops and make it across the Canadian border without being caught. You are in San Francisco, CA. The cop car that you stole has a radio that cops use, so you can hear their conversations.")
-  print("\nThe cops are on your tail! You speed through the roads of San Francisco. You hear the cops talking. 'Dispatch! I have a visual of the suspect. Calling for backup!' Escape the cop before the dispatcher sends backup!")
+  print("\nThe cops are on your tail! You speed through the roads of San Francisco. You hear the cops talking. 'Dispatch! I have a visual of the suspect. Calling for backup! Over.' Escape the cop before the dispatcher sends backup!")
   print("----------------------------------------------------------------------")
   choice = "not q"
   while (choice != "q"):
@@ -122,7 +122,7 @@ while(game == "yes" or game == "y"):
       randOne = random.randint(1,10)
       randTwo = random.randint(1,10)
       if (randOne == randTwo and disguise == True):
-        print('You notice a cop talking on the radio. "DISPATCH! I HAVE A VISUAL OF THE SUSPECT! HE SEEMS TO HAVE CREATED A DISGUISE WITH SPRAY PAINT! I CAN SEE HIS LICENSE PLATE. CALLING FOR BACKUP! OVER!" The cops have found you!' )
+        print('You notice a cop talking on the radio. "DISPATCH! I HAVE A VISUAL OF THE SUSPECT! HE SEEMS TO HAVE CREATED A DISGUISE WITH SPRAY PAINT! I CAN SEE HIS LICENSE PLATE. CALLING FOR BACKUP! Over." The cops have found you!' )
         copDistance = 3
   if (choice == "q"):
       print("Thanks for playing! I'm sorry that you had to quit.")
