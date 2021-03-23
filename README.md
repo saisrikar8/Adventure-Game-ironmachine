@@ -35,7 +35,7 @@ If you have questions feel free to ask each other and work as a class
 You have hotwired a police car and stolen it. Little did you know, the police were keeping track of your location. It seems that the police are chasing you now! Your mission is to outrun the cops and make it across the Canadian border without being caught. You are in San Francisco, CA. The cop car that you stole has a radio that cops use, so you can hear their conversations.
 
 ### Instructions:
-You will be given options and you have to answer with the corresponding letter(lower or uppercase). You must make it to Canada in 900 to 1000 miles. There are two routes that you will be able to choose at the beginning. The chosen route will determine the distance to Canada. You will recieve warnings when you are almost out of fuel, if you are tired, or if the cops are very close. You will lose if the cops arrest you, if you run out of fuel without refueling, or if you get too tired.
+You will be given options and you have to answer with the corresponding letter(lower or uppercase). You must make it to Canada in 900 to 1000 miles. There are two routes that you will be able to choose at the beginning. The chosen route will determine the distance to Canada. You will recieve warnings when you are almost out of fuel, if you are tired, or if the cops are very close.
 
 
 Here are your main options:
