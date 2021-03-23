@@ -7,8 +7,8 @@ while(game == "yes" or game == "y"):
   distanceTraveled = 0
   copDistance = 3
   sleepiness = 0
-  fuel = 15
-  replacementFuel = 3
+  fuel = 16
+  replacementFuel = 2
   won = False
   disguise = False
   print("You have hotwired a police car and stolen it. Little did you know, the police were keeping track of your location. It seems that the police are chasing you now! Your mission is to outrun the cops and make it across the Canadian border without being caught. You are in San Francisco, CA. The cop car that you stole has a radio that cops use, so you can hear their conversations.")
@@ -69,7 +69,7 @@ while(game == "yes" or game == "y"):
             print("You already have a lot of fuel. There is no need for a refill. Your fuel tank is " + str(int(fuel/15 * 100)) + " % full.")
           else:
               print("You have decided to refuel. You don't get anymore tired, but your fuel tank is full. The pursuit continues.")
-              fuel = 15
+              fuel = 20
               replacementFuel -= 1
               copDistance -= (copSpeed)/20
       elif (choice == "d"):
@@ -97,11 +97,11 @@ while(game == "yes" or game == "y"):
       if (sleepiness > 15):
         print("You nod off while driving and crash into a nearby car. Fortunately, it was only a minor crash. You stay asleep. When you wake up, you are in handcuffs.")
         gameOver = True
-      elif (13 <= sleepiness and gameOver != True):
+      elif (13 <= sleepiness):
         print("WARNING! YOU SHOULD STOP AND TAKE SOME REST OR ELSE YOU WILL CRASH!")
       if (fuel <= 0 and won == False):
-        winOrLose = random.randint(1,100)
-        otherInt = random.randint(1,100)
+        winOrLose = random.randint(1,50)
+        otherInt = random.randint(1,50)
         if (winOrLose == otherInt):
           print("You notice an abandoned gas station next to the highway. You pull over on the highway and walk there. You are able to trasport fuel to the car and fill it up with fuel. You also get into the gas station and find some spray paint. You use the spray paint to disguise your car. When you start driving again, the police pass right by you. You have an advantage!")
           disguise = True

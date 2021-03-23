@@ -46,7 +46,7 @@ C. Refuel
 D. Stop for the night
 E. Status Check
 **
-A full tank is 15 gallons of fuel. You will start with 3 refills of fuel. Option A will burn two gallons of fuel. Option B will burn through 1 gallon of fuel. Your sleepiness level is very important. If your sleepiness goes over level 15, you will be too tired to drive and crash. Therefore, you lose the game. To lower your sleepiness level, you can choose option D, which will allow you to stop at a motel to rest. Finally, option E will give you the status. It will show you your sleep level, the distance traveled, the remaining distance to Canada, how much fuel is left in the car, and how many remaining fuel refills you have left. You will get 3 seconds to read it.
+You will start with a full tank of 16 gallons of fuel with 2 refills of fuel. Option A will burn 2 gallons of fuel. Option B will burn through 1 gallon of fuel. If you don't refuel, and run out of fuel, you are most likely going to crash. Your sleepiness level is very important. If your sleepiness goes over level 15, you will be too tired to drive and crash. Therefore, you lose the game. If you choose option A, your sleepiness level increases by two. If you choose option B, you sleepiness level increases by one. The rest of the options have no effect on your sleepiness. To lower your sleepiness level, you can choose option D, which will allow you to stop at a motel to rest. Finally, option E will give you the status. It will show you your sleep level, the distance traveled, the remaining distance to Canada, how much fuel is left in the car, and how many remaining fuel refills you have left. You will get 3 seconds to read it.
 
 ### *Example*:
 ```
