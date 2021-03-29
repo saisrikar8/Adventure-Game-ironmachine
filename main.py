@@ -120,7 +120,7 @@ while(game == "yes" or game == "y"):
       elif(highway == 80 and distanceTraveled > 125 and distanceTraveled < 200):
         print("You merged onto Interstate 5 North")
         highway = 5
-      elif (highway == 199 and distanceTraveled < 375 and distanceTraveled > 375):
+      elif (highway == 199 and distanceTraveled < 375 and distanceTraveled > 275):
         print("You merged onto Interstate 5 North.")
         highway = 5
       randOne = random.randint(1,10)
