@@ -11,6 +11,7 @@ while(game == "yes" or game == "y"):
   replacementFuel = 2
   won = False
   disguise = False
+  quit = False
   print("You have hotwired a police car and stolen it. Little did you know, the police were keeping track of your location. It seems that the police are chasing you now! Your mission is to outrun the cops and make it across the Canadian border without being caught. You are in San Francisco, CA. The cop car that you stole has a radio that cops use, so you can hear their conversations.")
   print("\nThe cops are on your tail! You speed through the roads of San Francisco. You hear the cops talking. 'Dispatch! I have a visual of the suspect. Calling for backup! Over.' Escape the cop before the dispatcher sends backup!")
   print("----------------------------------------------------------------------")
@@ -39,9 +40,12 @@ while(game == "yes" or game == "y"):
           winningDistance = 950
           highway = 80
           choice = "q"
-      else:
+      elif (choice != "q"):
           print("INVALID INPUT. TRY AGAIN.\n\n")
-  choice = "not q"
+      else:
+        quit = True
+  if (not quit):
+    choice = "not q"
   while (not gameOver and choice != "q" and won == False):
       print("Loading Options...")
       time.sleep(2)
